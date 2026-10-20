@@ -1,0 +1,30 @@
+# CMake and compiler outputs
+/build/
+/cmake-build-*/
+/compile_commands.json
+*.o
+*.obj
+
+# Local Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large external dataset
+/datasets/DIV2K/
+
+# Locally generated benchmark/profiling artifacts
+/results/*
+!/results/.gitkeep
+
+# Locally generated image outputs; keep the small dog.png source sample
+/images/*.png
+!/images/dog.png
+
+# Editor and OS metadata
+.idea/
+.vscode/
+.DS_Store
+*~
+
